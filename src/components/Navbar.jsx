@@ -23,9 +23,9 @@ export default function Navbar() {
                 </li>
                 <li>
                     <Link to="/favoritos" style= {{
-                        color: location.pathname === '/' ? '#fff' : '#aaa',
+                        color: location.pathname === '/favoritos' ? '#fff' : '#aaa',
                         textDecoration: 'none',
-                        fontweight: location.pathname === '/' ? 'bold' : 'normal',
+                        fontweight: location.pathname === '/favoritos' ? 'bold' : 'normal',
                         transition: 'color 0.3s ease'
                     }}>
                         Meus destinos
